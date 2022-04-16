@@ -24,6 +24,16 @@ Checking the git where it install or not
 $ git --version
 ```
 
+Checking whether config set or not
+```
+$ git config --global user.name 
+$ git config --global user.email 
+```
+Checking the status
+```
+$ git status
+```
+
 
 ## Set up Git
 
@@ -33,3 +43,35 @@ $ git config --global user.email <mail>
 ```
 * git config is a tool
 * --global parameter mean to publish, everyone can see the information that you set
+
+## Download file what you want in gethub
+
+```
+$ git clone <file_route>
+```
+file_route mean that you place a route
+
+## push the file to github
+first check the status
+```
+ git status
+```
+if show red file, it mean it is new file 
+and you can push it to Github
+* adding file to the buffer
+```
+$ git add <file_name>  // add singular file
+$ git add . // adding all file also you can comment $ git add --all
+```
+* to save the file 
+```
+$ git commit -m "<endscript>"     //commit have write something down meaning
+```
+* Push file
+```
+$ git push
+```
+
+
+
+
