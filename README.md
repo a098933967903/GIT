@@ -65,7 +65,7 @@ $ git add . // adding all file also you can comment $ git add --all
 ```
 * to save the file 
 ```
-$ git commit -m "<endscript>"     //commit have write something down meaning
+$ git commit -m "<endscript>"     //commit have write something down meaning  -m didn't open text editor 
 ```
 * Push file
 ```
