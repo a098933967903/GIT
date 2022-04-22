@@ -47,9 +47,9 @@ $ git config --global user.email <mail>
 ## Download file what you want in gethub
 
 ```
-$ git clone <file_route>
+$ git clone <URL>  //
 ```
-file_route mean that you place a route
+URL mean that you place a route
 
 ## push the file to github
 first check the status
