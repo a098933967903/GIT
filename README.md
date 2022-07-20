@@ -44,7 +44,7 @@ $ git config --global user.email <mail>
 * git config is a tool
 * --global parameter mean to publish, everyone can see the information that you set
 
-## Download file what you want in gethub
+## Download file what you want on github
 
 ```
 $ git clone <URL>  //
